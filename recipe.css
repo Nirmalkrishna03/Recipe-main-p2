@@ -1,0 +1,140 @@
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+    font-family: "Outfit", sans-serif;
+    color: var(--wenge-brown);
+}
+
+body {
+    display: flex;
+    background-color: var(--eggshell);
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+
+}
+
+.container {
+    display: flex;
+    background-color: var(--white);
+    flex-direction: column;
+
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+
+}
+
+.imag {
+    border-radius: 10px;
+    width: 95%;
+    height: 95%
+}
+
+.head1 {
+    color: var(--dark-charcoal);
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.head2 {
+    color: var(--dark-raspberry);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.head3,
+.foot,
+.sec {
+    color: var(--nutmeg);
+    font-weight: 600;
+}
+
+.d1 {
+    color: var(--wenge-brown);
+    padding-right: 35px;
+}
+
+.head1,
+.head2,
+.head3 {
+    font-family: "Young Serif", serif;
+    padding: 15px;
+}
+
+.head2 {
+    margin-left: 25px;
+}
+
+
+
+.head3 {
+    border-top: 2px solid var(--light-grey);
+
+    font-size: 30px;
+}
+
+
+.tableline th,
+td {
+
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--light-grey);
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.first {
+    font-weight: 350;
+}
+
+.d1,
+.tdesc {
+    padding: 15px;
+}
+
+.lists,
+.ins {
+    margin: 0%;
+    margin-bottom: 5%;
+
+    padding: 5px 35px 5px;
+
+}
+.lists1 {
+    margin: 0%;
+    margin-bottom: 5%;
+    margin-left: 40px;
+    padding: 0px 25px 5px;
+
+}
+
+.lists 
+{
+    color:var(--wenge-brown);
+}
+
+.lists li::marker {
+   color:var(--dark-raspberry);
+}
+
+.ins li::marker
+{
+    color:var(--nutmeg);
+}
